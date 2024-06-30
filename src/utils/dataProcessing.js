@@ -1,6 +1,5 @@
 // calculate maximum and minimum yearly production data
 export const processYearlyProductionData = (dataset) => {
-  console.log("dataset", dataset);
   const yearlyData = {};
 
   dataset.forEach((data) => {
